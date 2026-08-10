@@ -5,7 +5,6 @@
 1. [Project Background and Overview](#project-background-and-overview)
 2. [Data and Methodology](#data-and-methodology)
 3. [Results](#results)
-4. [Next Steps](#next-steps)
 
 ## Project Background and Overview
 
