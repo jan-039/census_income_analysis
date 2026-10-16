@@ -12,7 +12,7 @@ This project uses demographic and employment data from the 1994 U.S. Census to p
 
 The goal is to develop and compare machine learning models for binary income classification while also examining class imbalance, feature relationships, model interpretability, and potential ethical concerns associated with demographic data.
 
-The project compares a traditional Logistic Regression model with a Neural Network and evaluates their performance using accuracy and F1 score.
+The project utilizes a traditional Logistic Regression model evaluates its performance using accuracy and F1 score.
 
 ## Data and Methodology
 
@@ -46,13 +46,10 @@ The project compares a traditional Logistic Regression model with a Neural Netwo
   - Trained a Logistic Regression classifier
   - Applied class weighting to address target imbalance
   - Used GridSearchCV with 5-fold cross-validation to optimize Logistic Regression hyperparameters
-  - Built a Neural Network with three hidden layers containing 64, 32, and 16 neurons
 
 - **Model Evaluation:**
-  - Evaluated models using accuracy and F1 score
+  - Evaluated model using accuracy and F1 score
   - Used log loss when evaluating Logistic Regression
-  - Compared training and validation performance for the Neural Network
-  - Reduced Neural Network training epochs after identifying overfitting
 
 - **Ethical Considerations:**
   - Considered potential bias related to protected demographic characteristics
@@ -66,14 +63,3 @@ The project compares a traditional Logistic Regression model with a Neural Netwo
   - F1 Score: approximately **0.69**
   - Performed slightly better than the Neural Network
   - Provided interpretable coefficients that helped identify features associated with the income prediction
-
-- **Neural Network:**
-  - Accuracy: approximately **79%**
-  - F1 Score: approximately **0.68**
-  - Initially showed overfitting when trained for more epochs
-  - Reducing training to 15 epochs improved the balance between training and validation performance
-
-- **Model Comparison:**
-  - Logistic Regression and the Neural Network produced similar predictive performance
-  - Logistic Regression performed slightly better while remaining simpler and easier to interpret
-  - Logistic Regression was selected as the preferred model because the additional complexity of the Neural Network did not produce better results
