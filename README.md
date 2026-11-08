@@ -8,13 +8,13 @@
 
 ## Project Background and Overview
 
+> This project was created during the Break Through Tech AI Program.
+
 This project uses demographic and employment data from the 1994 U.S. Census to predict whether an individual's annual income is greater than $50,000.
 
 The goal is to develop and compare machine learning models for binary income classification while also examining class imbalance, feature relationships, model interpretability, and potential ethical concerns associated with demographic data.
 
 The project utilizes a traditional Logistic Regression model evaluates its performance using accuracy and F1 score.
-
-> This project was created during the Break Through Tech AI Program
 
 ## Data and Methodology
 
