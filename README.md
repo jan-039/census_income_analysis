@@ -14,6 +14,8 @@ The goal is to develop and compare machine learning models for binary income cla
 
 The project utilizes a traditional Logistic Regression model evaluates its performance using accuracy and F1 score.
 
+> This project was created during the Break Through Tech AI Program
+
 ## Data and Methodology
 
 - **Dataset Used:**
